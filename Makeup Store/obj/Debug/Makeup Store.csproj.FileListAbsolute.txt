@@ -17,3 +17,5 @@ C:\Users\Hp 840\Desktop\Project\Makeup Store\bin\Debug\Makeup Store.exe
 C:\Users\Hp 840\Desktop\Project\Makeup Store\bin\Debug\Makeup Store.pdb
 C:\Users\Hp 840\Desktop\Project\Makeup Store\obj\Debug\Makeup Store.csprojAssemblyReference.cache
 C:\Users\Hp 840\Desktop\Project\Makeup Store\obj\Debug\Makeup_Store.Checkout.resources
+C:\Users\Hp 840\Desktop\Project\Makeup Store\obj\Debug\Makeup_Store.LogIn.resources
+C:\Users\Hp 840\Desktop\Project\Makeup Store\obj\Debug\Makeup_Store.SignUp.resources

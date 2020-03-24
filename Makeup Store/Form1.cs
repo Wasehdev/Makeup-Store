@@ -26,7 +26,7 @@ namespace Makeup_Store
         public Form1()
         {
             InitializeComponent();
-
+            dataGridView1.Rows.Clear();
             dataGridView1.ColumnCount = 5;
             dataGridView1.Columns[0].Name = "SR NO";
             dataGridView1.Columns[1].Name = "Item Name"; 
@@ -62,7 +62,7 @@ namespace Makeup_Store
             face.Visible = false;
             item1.Visible = false;
             item2.Visible = false;
-            item3.Visible = true;
+            item3.Visible = false;
             item4.Visible = false;
             item5.Visible = false;
             item6.Visible = false;
@@ -1871,6 +1871,16 @@ namespace Makeup_Store
                     pr = "";
                     qu = "";
                     to = "";
+                    if (dataGridView1.Rows.Count == 2)
+                    {
+                        na = dataGridView1.Rows[0].Cells[1].Value.ToString() ;
+                        pr = dataGridView1.Rows[0].Cells[2].Value.ToString() ;
+                        qu = dataGridView1.Rows[0].Cells[3].Value.ToString() ;
+                        to = dataGridView1.Rows[0].Cells[4].Value.ToString() ;
+                    }
+                    else
+                    {
+
                     for (int i = 0; i < dataGridView1.Rows.Count; i++)
                     {
                         na += dataGridView1.Rows[i].Cells[1].Value.ToString() + "\n";
@@ -1878,6 +1888,7 @@ namespace Makeup_Store
                         qu += dataGridView1.Rows[i].Cells[3].Value.ToString() + "\n";
                         to += dataGridView1.Rows[i].Cells[4].Value.ToString() + "\n";
 
+                    }
                     }
                 }
 
@@ -2282,18 +2293,19 @@ namespace Makeup_Store
 
         private void button14_Click(object sender, EventArgs e)
         {
-
-            buyNow(name5.Text, price5.Text, cb5.Text);
-        }
-
-        private void button22_Click(object sender, EventArgs e)
-        {
             try
             {
                 addToCart((++srno).ToString(), name5.Text, price5.Text, cb5.Text.ToString());
 
             }
             catch { }
+
+           
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            buyNow(name5.Text, price5.Text, cb5.Text);
         }
     }
     }

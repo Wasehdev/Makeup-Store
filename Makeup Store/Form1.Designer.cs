@@ -33,14 +33,13 @@
             this.lipschecked = new System.Windows.Forms.Panel();
             this.eyechecked = new System.Windows.Forms.Panel();
             this.toolschecked = new System.Windows.Forms.Panel();
-            this.lipsbtn = new System.Windows.Forms.Button();
-            this.eyesbtn = new System.Windows.Forms.Button();
             this.facechecked = new System.Windows.Forms.Panel();
-            this.toolsbtn = new System.Windows.Forms.Button();
-            this.bodybtn = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.topbar = new System.Windows.Forms.Panel();
+            this.welcome = new System.Windows.Forms.Label();
             this.eyes = new System.Windows.Forms.Panel();
+            this.Checkoutbtn1 = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.nl5 = new System.Windows.Forms.Label();
             this.pl5 = new System.Windows.Forms.Label();
             this.btn5 = new System.Windows.Forms.Button();
@@ -57,6 +56,7 @@
             this.btn2 = new System.Windows.Forms.Button();
             this.btn1 = new System.Windows.Forms.Button();
             this.lips = new System.Windows.Forms.Panel();
+            this.button47 = new System.Windows.Forms.Button();
             this.nl11 = new System.Windows.Forms.Label();
             this.pl11 = new System.Windows.Forms.Label();
             this.btn11 = new System.Windows.Forms.Button();
@@ -77,6 +77,7 @@
             this.btn7 = new System.Windows.Forms.Button();
             this.btn6 = new System.Windows.Forms.Button();
             this.Tools = new System.Windows.Forms.Panel();
+            this.button46 = new System.Windows.Forms.Button();
             this.nl22 = new System.Windows.Forms.Label();
             this.pl22 = new System.Windows.Forms.Label();
             this.btn22 = new System.Windows.Forms.Button();
@@ -93,6 +94,8 @@
             this.btn19 = new System.Windows.Forms.Button();
             this.btn18 = new System.Windows.Forms.Button();
             this.item1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.cb1 = new System.Windows.Forms.ComboBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.stock1 = new System.Windows.Forms.Label();
             this.price1 = new System.Windows.Forms.Label();
@@ -104,8 +107,9 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.item2 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.cb2 = new System.Windows.Forms.ComboBox();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.stock2 = new System.Windows.Forms.Label();
             this.price2 = new System.Windows.Forms.Label();
@@ -117,8 +121,9 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.item3 = new System.Windows.Forms.Panel();
+            this.label112 = new System.Windows.Forms.Label();
+            this.cb3 = new System.Windows.Forms.ComboBox();
             this.richTextBox3 = new System.Windows.Forms.RichTextBox();
             this.stock3 = new System.Windows.Forms.Label();
             this.price3 = new System.Windows.Forms.Label();
@@ -130,8 +135,9 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.item4 = new System.Windows.Forms.Panel();
+            this.label111 = new System.Windows.Forms.Label();
+            this.cb4 = new System.Windows.Forms.ComboBox();
             this.richTextBox4 = new System.Windows.Forms.RichTextBox();
             this.stock4 = new System.Windows.Forms.Label();
             this.price4 = new System.Windows.Forms.Label();
@@ -143,8 +149,9 @@
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.panel14 = new System.Windows.Forms.Panel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.item5 = new System.Windows.Forms.Panel();
+            this.label110 = new System.Windows.Forms.Label();
+            this.cb5 = new System.Windows.Forms.ComboBox();
             this.richTextBox5 = new System.Windows.Forms.RichTextBox();
             this.stock5 = new System.Windows.Forms.Label();
             this.price5 = new System.Windows.Forms.Label();
@@ -156,8 +163,9 @@
             this.button14 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.item6 = new System.Windows.Forms.Panel();
+            this.label109 = new System.Windows.Forms.Label();
+            this.cb6 = new System.Windows.Forms.ComboBox();
             this.richTextBox6 = new System.Windows.Forms.RichTextBox();
             this.stock6 = new System.Windows.Forms.Label();
             this.price6 = new System.Windows.Forms.Label();
@@ -169,8 +177,9 @@
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.item7 = new System.Windows.Forms.Panel();
+            this.label108 = new System.Windows.Forms.Label();
+            this.cb7 = new System.Windows.Forms.ComboBox();
             this.richTextBox7 = new System.Windows.Forms.RichTextBox();
             this.stock7 = new System.Windows.Forms.Label();
             this.price7 = new System.Windows.Forms.Label();
@@ -182,8 +191,9 @@
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.item8 = new System.Windows.Forms.Panel();
+            this.label106 = new System.Windows.Forms.Label();
+            this.cb8 = new System.Windows.Forms.ComboBox();
             this.richTextBox8 = new System.Windows.Forms.RichTextBox();
             this.stock8 = new System.Windows.Forms.Label();
             this.price8 = new System.Windows.Forms.Label();
@@ -195,8 +205,9 @@
             this.button23 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.item9 = new System.Windows.Forms.Panel();
+            this.label105 = new System.Windows.Forms.Label();
+            this.cb9 = new System.Windows.Forms.ComboBox();
             this.richTextBox9 = new System.Windows.Forms.RichTextBox();
             this.stock9 = new System.Windows.Forms.Label();
             this.price9 = new System.Windows.Forms.Label();
@@ -208,8 +219,9 @@
             this.button25 = new System.Windows.Forms.Button();
             this.button26 = new System.Windows.Forms.Button();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.item10 = new System.Windows.Forms.Panel();
+            this.label100 = new System.Windows.Forms.Label();
+            this.cb10 = new System.Windows.Forms.ComboBox();
             this.richTextBox10 = new System.Windows.Forms.RichTextBox();
             this.stock10 = new System.Windows.Forms.Label();
             this.price10 = new System.Windows.Forms.Label();
@@ -221,8 +233,9 @@
             this.button27 = new System.Windows.Forms.Button();
             this.button28 = new System.Windows.Forms.Button();
             this.panel13 = new System.Windows.Forms.Panel();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.item11 = new System.Windows.Forms.Panel();
+            this.label99 = new System.Windows.Forms.Label();
+            this.cb11 = new System.Windows.Forms.ComboBox();
             this.richTextBox11 = new System.Windows.Forms.RichTextBox();
             this.stock11 = new System.Windows.Forms.Label();
             this.price11 = new System.Windows.Forms.Label();
@@ -234,8 +247,8 @@
             this.button29 = new System.Windows.Forms.Button();
             this.button30 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.face = new System.Windows.Forms.Panel();
+            this.button48 = new System.Windows.Forms.Button();
             this.nl17 = new System.Windows.Forms.Label();
             this.pl17 = new System.Windows.Forms.Label();
             this.btn17 = new System.Windows.Forms.Button();
@@ -255,6 +268,8 @@
             this.btn13 = new System.Windows.Forms.Button();
             this.btn12 = new System.Windows.Forms.Button();
             this.item12 = new System.Windows.Forms.Panel();
+            this.label98 = new System.Windows.Forms.Label();
+            this.cb12 = new System.Windows.Forms.ComboBox();
             this.richTextBox12 = new System.Windows.Forms.RichTextBox();
             this.stock12 = new System.Windows.Forms.Label();
             this.price12 = new System.Windows.Forms.Label();
@@ -266,8 +281,9 @@
             this.button15 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.item13 = new System.Windows.Forms.Panel();
+            this.label93 = new System.Windows.Forms.Label();
+            this.cb13 = new System.Windows.Forms.ComboBox();
             this.richTextBox13 = new System.Windows.Forms.RichTextBox();
             this.stock13 = new System.Windows.Forms.Label();
             this.price13 = new System.Windows.Forms.Label();
@@ -279,8 +295,9 @@
             this.button17 = new System.Windows.Forms.Button();
             this.button31 = new System.Windows.Forms.Button();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.item14 = new System.Windows.Forms.Panel();
+            this.label92 = new System.Windows.Forms.Label();
+            this.cb14 = new System.Windows.Forms.ComboBox();
             this.richTextBox14 = new System.Windows.Forms.RichTextBox();
             this.stock14 = new System.Windows.Forms.Label();
             this.price14 = new System.Windows.Forms.Label();
@@ -292,8 +309,9 @@
             this.button32 = new System.Windows.Forms.Button();
             this.button33 = new System.Windows.Forms.Button();
             this.panel17 = new System.Windows.Forms.Panel();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.item15 = new System.Windows.Forms.Panel();
+            this.label91 = new System.Windows.Forms.Label();
+            this.cb15 = new System.Windows.Forms.ComboBox();
             this.richTextBox15 = new System.Windows.Forms.RichTextBox();
             this.stock15 = new System.Windows.Forms.Label();
             this.price15 = new System.Windows.Forms.Label();
@@ -305,8 +323,9 @@
             this.button34 = new System.Windows.Forms.Button();
             this.button35 = new System.Windows.Forms.Button();
             this.panel19 = new System.Windows.Forms.Panel();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.item16 = new System.Windows.Forms.Panel();
+            this.label82 = new System.Windows.Forms.Label();
+            this.cb16 = new System.Windows.Forms.ComboBox();
             this.richTextBox16 = new System.Windows.Forms.RichTextBox();
             this.stock16 = new System.Windows.Forms.Label();
             this.price16 = new System.Windows.Forms.Label();
@@ -318,8 +337,9 @@
             this.button36 = new System.Windows.Forms.Button();
             this.button37 = new System.Windows.Forms.Button();
             this.panel21 = new System.Windows.Forms.Panel();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.item17 = new System.Windows.Forms.Panel();
+            this.label81 = new System.Windows.Forms.Label();
+            this.cb17 = new System.Windows.Forms.ComboBox();
             this.richTextBox17 = new System.Windows.Forms.RichTextBox();
             this.stock17 = new System.Windows.Forms.Label();
             this.price17 = new System.Windows.Forms.Label();
@@ -331,8 +351,9 @@
             this.button38 = new System.Windows.Forms.Button();
             this.button39 = new System.Windows.Forms.Button();
             this.panel23 = new System.Windows.Forms.Panel();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.item18 = new System.Windows.Forms.Panel();
+            this.label76 = new System.Windows.Forms.Label();
+            this.cb18 = new System.Windows.Forms.ComboBox();
             this.richTextBox18 = new System.Windows.Forms.RichTextBox();
             this.stock18 = new System.Windows.Forms.Label();
             this.price18 = new System.Windows.Forms.Label();
@@ -344,8 +365,9 @@
             this.button18 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.item19 = new System.Windows.Forms.Panel();
+            this.label67 = new System.Windows.Forms.Label();
+            this.cb19 = new System.Windows.Forms.ComboBox();
             this.richTextBox19 = new System.Windows.Forms.RichTextBox();
             this.stock19 = new System.Windows.Forms.Label();
             this.price19 = new System.Windows.Forms.Label();
@@ -357,8 +379,9 @@
             this.button20 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
             this.panel18 = new System.Windows.Forms.Panel();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.item20 = new System.Windows.Forms.Panel();
+            this.label62 = new System.Windows.Forms.Label();
+            this.cb20 = new System.Windows.Forms.ComboBox();
             this.richTextBox20 = new System.Windows.Forms.RichTextBox();
             this.stock20 = new System.Windows.Forms.Label();
             this.price20 = new System.Windows.Forms.Label();
@@ -370,8 +393,9 @@
             this.button40 = new System.Windows.Forms.Button();
             this.button41 = new System.Windows.Forms.Button();
             this.panel22 = new System.Windows.Forms.Panel();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
             this.item21 = new System.Windows.Forms.Panel();
+            this.label61 = new System.Windows.Forms.Label();
+            this.cb21 = new System.Windows.Forms.ComboBox();
             this.richTextBox21 = new System.Windows.Forms.RichTextBox();
             this.stock21 = new System.Windows.Forms.Label();
             this.price21 = new System.Windows.Forms.Label();
@@ -383,8 +407,9 @@
             this.button42 = new System.Windows.Forms.Button();
             this.button43 = new System.Windows.Forms.Button();
             this.panel25 = new System.Windows.Forms.Panel();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.item22 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.cb22 = new System.Windows.Forms.ComboBox();
             this.richTextBox22 = new System.Windows.Forms.RichTextBox();
             this.stock22 = new System.Windows.Forms.Label();
             this.price22 = new System.Windows.Forms.Label();
@@ -396,132 +421,108 @@
             this.button44 = new System.Windows.Forms.Button();
             this.button45 = new System.Windows.Forms.Button();
             this.panel27 = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.circular_button3 = new Makeup_Store.Circular_button();
             this.circular_button2 = new Makeup_Store.Circular_button();
             this.circular_button1 = new Makeup_Store.Circular_button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Checkoutbtn1 = new System.Windows.Forms.Button();
-            this.cb2 = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.cb1 = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.cb22 = new System.Windows.Forms.ComboBox();
-            this.label61 = new System.Windows.Forms.Label();
-            this.cb21 = new System.Windows.Forms.ComboBox();
-            this.label62 = new System.Windows.Forms.Label();
-            this.cb20 = new System.Windows.Forms.ComboBox();
-            this.label67 = new System.Windows.Forms.Label();
-            this.cb19 = new System.Windows.Forms.ComboBox();
-            this.label76 = new System.Windows.Forms.Label();
-            this.cb18 = new System.Windows.Forms.ComboBox();
-            this.label81 = new System.Windows.Forms.Label();
-            this.cb17 = new System.Windows.Forms.ComboBox();
-            this.label82 = new System.Windows.Forms.Label();
-            this.cb16 = new System.Windows.Forms.ComboBox();
-            this.label91 = new System.Windows.Forms.Label();
-            this.cb15 = new System.Windows.Forms.ComboBox();
-            this.label92 = new System.Windows.Forms.Label();
-            this.cb14 = new System.Windows.Forms.ComboBox();
-            this.label93 = new System.Windows.Forms.Label();
-            this.cb13 = new System.Windows.Forms.ComboBox();
-            this.label98 = new System.Windows.Forms.Label();
-            this.cb12 = new System.Windows.Forms.ComboBox();
-            this.label99 = new System.Windows.Forms.Label();
-            this.cb11 = new System.Windows.Forms.ComboBox();
-            this.label100 = new System.Windows.Forms.Label();
-            this.cb10 = new System.Windows.Forms.ComboBox();
-            this.label105 = new System.Windows.Forms.Label();
-            this.cb9 = new System.Windows.Forms.ComboBox();
-            this.label108 = new System.Windows.Forms.Label();
-            this.cb7 = new System.Windows.Forms.ComboBox();
-            this.label109 = new System.Windows.Forms.Label();
-            this.cb6 = new System.Windows.Forms.ComboBox();
-            this.label110 = new System.Windows.Forms.Label();
-            this.cb5 = new System.Windows.Forms.ComboBox();
-            this.label111 = new System.Windows.Forms.Label();
-            this.cb4 = new System.Windows.Forms.ComboBox();
-            this.label112 = new System.Windows.Forms.Label();
-            this.cb3 = new System.Windows.Forms.ComboBox();
-            this.button46 = new System.Windows.Forms.Button();
-            this.button47 = new System.Windows.Forms.Button();
-            this.button48 = new System.Windows.Forms.Button();
-            this.cb8 = new System.Windows.Forms.ComboBox();
-            this.label106 = new System.Windows.Forms.Label();
+            this.lipsbtn = new System.Windows.Forms.Button();
+            this.eyesbtn = new System.Windows.Forms.Button();
+            this.toolsbtn = new System.Windows.Forms.Button();
+            this.bodybtn = new System.Windows.Forms.Button();
             this.sidebar.SuspendLayout();
             this.topbar.SuspendLayout();
             this.eyes.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.lips.SuspendLayout();
             this.Tools.SuspendLayout();
             this.item1.SuspendLayout();
             this.panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.item2.SuspendLayout();
             this.panel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.item3.SuspendLayout();
             this.panel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.item4.SuspendLayout();
             this.panel14.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.item5.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.item6.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.item7.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.item8.SuspendLayout();
             this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.item9.SuspendLayout();
             this.panel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.item10.SuspendLayout();
             this.panel13.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.item11.SuspendLayout();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             this.face.SuspendLayout();
             this.item12.SuspendLayout();
             this.panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.item13.SuspendLayout();
             this.panel15.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.item14.SuspendLayout();
             this.panel17.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             this.item15.SuspendLayout();
             this.panel19.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             this.item16.SuspendLayout();
             this.panel21.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             this.item17.SuspendLayout();
             this.panel23.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             this.item18.SuspendLayout();
             this.panel11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             this.item19.SuspendLayout();
             this.panel18.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             this.item20.SuspendLayout();
             this.panel22.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
             this.item21.SuspendLayout();
             this.panel25.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             this.item22.SuspendLayout();
             this.panel27.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // sidebar
@@ -571,35 +572,6 @@
             this.toolschecked.TabIndex = 3;
             this.toolschecked.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
-            // lipsbtn
-            // 
-            this.lipsbtn.FlatAppearance.BorderSize = 0;
-            this.lipsbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lipsbtn.Image = ((System.Drawing.Image)(resources.GetObject("lipsbtn.Image")));
-            this.lipsbtn.Location = new System.Drawing.Point(-3, 205);
-            this.lipsbtn.Name = "lipsbtn";
-            this.lipsbtn.Size = new System.Drawing.Size(189, 50);
-            this.lipsbtn.TabIndex = 1;
-            this.lipsbtn.Text = "     Lips";
-            this.lipsbtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lipsbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.lipsbtn.UseVisualStyleBackColor = true;
-            this.lipsbtn.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // eyesbtn
-            // 
-            this.eyesbtn.FlatAppearance.BorderSize = 0;
-            this.eyesbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.eyesbtn.Image = ((System.Drawing.Image)(resources.GetObject("eyesbtn.Image")));
-            this.eyesbtn.Location = new System.Drawing.Point(-3, 152);
-            this.eyesbtn.Name = "eyesbtn";
-            this.eyesbtn.Size = new System.Drawing.Size(186, 50);
-            this.eyesbtn.TabIndex = 3;
-            this.eyesbtn.Text = "    Eyes";
-            this.eyesbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.eyesbtn.UseVisualStyleBackColor = true;
-            this.eyesbtn.Click += new System.EventHandler(this.button4_Click);
-            // 
             // facechecked
             // 
             this.facechecked.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(144)))), ((int)(((byte)(0)))));
@@ -607,33 +579,6 @@
             this.facechecked.Name = "facechecked";
             this.facechecked.Size = new System.Drawing.Size(10, 50);
             this.facechecked.TabIndex = 3;
-            // 
-            // toolsbtn
-            // 
-            this.toolsbtn.FlatAppearance.BorderSize = 0;
-            this.toolsbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.toolsbtn.Location = new System.Drawing.Point(0, 324);
-            this.toolsbtn.Name = "toolsbtn";
-            this.toolsbtn.Size = new System.Drawing.Size(178, 50);
-            this.toolsbtn.TabIndex = 5;
-            this.toolsbtn.Text = "    Tools";
-            this.toolsbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.toolsbtn.UseVisualStyleBackColor = true;
-            this.toolsbtn.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // bodybtn
-            // 
-            this.bodybtn.FlatAppearance.BorderSize = 0;
-            this.bodybtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bodybtn.Image = ((System.Drawing.Image)(resources.GetObject("bodybtn.Image")));
-            this.bodybtn.Location = new System.Drawing.Point(6, 266);
-            this.bodybtn.Name = "bodybtn";
-            this.bodybtn.Size = new System.Drawing.Size(172, 50);
-            this.bodybtn.TabIndex = 4;
-            this.bodybtn.Text = "    Face";
-            this.bodybtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.bodybtn.UseVisualStyleBackColor = true;
-            this.bodybtn.Click += new System.EventHandler(this.button5_Click);
             // 
             // button3
             // 
@@ -650,6 +595,7 @@
             // topbar
             // 
             this.topbar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(144)))), ((int)(((byte)(0)))));
+            this.topbar.Controls.Add(this.welcome);
             this.topbar.Controls.Add(this.circular_button3);
             this.topbar.Controls.Add(this.circular_button2);
             this.topbar.Controls.Add(this.circular_button1);
@@ -659,6 +605,16 @@
             this.topbar.Size = new System.Drawing.Size(907, 27);
             this.topbar.TabIndex = 1;
             this.topbar.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // welcome
+            // 
+            this.welcome.AutoSize = true;
+            this.welcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.welcome.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.welcome.Location = new System.Drawing.Point(327, 1);
+            this.welcome.Name = "welcome";
+            this.welcome.Size = new System.Drawing.Size(0, 20);
+            this.welcome.TabIndex = 50;
             // 
             // eyes
             // 
@@ -686,6 +642,31 @@
             this.eyes.Size = new System.Drawing.Size(907, 584);
             this.eyes.TabIndex = 2;
             this.eyes.Paint += new System.Windows.Forms.PaintEventHandler(this.panel8_Paint);
+            // 
+            // Checkoutbtn1
+            // 
+            this.Checkoutbtn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.Checkoutbtn1.FlatAppearance.BorderSize = 0;
+            this.Checkoutbtn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Checkoutbtn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Checkoutbtn1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Checkoutbtn1.Location = new System.Drawing.Point(757, 17);
+            this.Checkoutbtn1.Name = "Checkoutbtn1";
+            this.Checkoutbtn1.Size = new System.Drawing.Size(122, 41);
+            this.Checkoutbtn1.TabIndex = 49;
+            this.Checkoutbtn1.Text = "Checkout\r\n";
+            this.Checkoutbtn1.UseVisualStyleBackColor = false;
+            this.Checkoutbtn1.Click += new System.EventHandler(this.Checkoutbtn1_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToOrderColumns = true;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(869, 367);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(10, 157);
+            this.dataGridView1.TabIndex = 48;
+            this.dataGridView1.Visible = false;
             // 
             // nl5
             // 
@@ -890,6 +871,21 @@
             this.lips.Name = "lips";
             this.lips.Size = new System.Drawing.Size(907, 584);
             this.lips.TabIndex = 4;
+            // 
+            // button47
+            // 
+            this.button47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.button47.FlatAppearance.BorderSize = 0;
+            this.button47.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button47.Font = new System.Drawing.Font("Calisto MT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button47.ForeColor = System.Drawing.SystemColors.Control;
+            this.button47.Location = new System.Drawing.Point(757, 17);
+            this.button47.Name = "button47";
+            this.button47.Size = new System.Drawing.Size(122, 41);
+            this.button47.TabIndex = 50;
+            this.button47.Text = "Checkout\r\n";
+            this.button47.UseVisualStyleBackColor = false;
+            this.button47.Click += new System.EventHandler(this.button47_Click);
             // 
             // nl11
             // 
@@ -1123,6 +1119,21 @@
             this.Tools.Size = new System.Drawing.Size(907, 584);
             this.Tools.TabIndex = 8;
             // 
+            // button46
+            // 
+            this.button46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.button46.FlatAppearance.BorderSize = 0;
+            this.button46.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button46.Font = new System.Drawing.Font("Calisto MT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button46.ForeColor = System.Drawing.SystemColors.Control;
+            this.button46.Location = new System.Drawing.Point(757, 17);
+            this.button46.Name = "button46";
+            this.button46.Size = new System.Drawing.Size(122, 41);
+            this.button46.TabIndex = 62;
+            this.button46.Text = "Checkout\r\n";
+            this.button46.UseVisualStyleBackColor = false;
+            this.button46.Click += new System.EventHandler(this.button46_Click);
+            // 
             // nl22
             // 
             this.nl22.AutoSize = true;
@@ -1312,6 +1323,34 @@
             this.item1.TabIndex = 8;
             this.item1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(411, 303);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(68, 20);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "Quantity";
+            // 
+            // cb1
+            // 
+            this.cb1.FormattingEnabled = true;
+            this.cb1.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "..."});
+            this.cb1.Location = new System.Drawing.Point(571, 303);
+            this.cb1.Name = "cb1";
+            this.cb1.Size = new System.Drawing.Size(121, 28);
+            this.cb1.TabIndex = 13;
+            // 
             // richTextBox1
             // 
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -1434,16 +1473,6 @@
             this.panel8.TabIndex = 0;
             this.panel8.Paint += new System.Windows.Forms.PaintEventHandler(this.panel8_Paint_1);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(17, 55);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(342, 475);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // item2
             // 
             this.item2.BackColor = System.Drawing.Color.White;
@@ -1465,6 +1494,34 @@
             this.item2.Name = "item2";
             this.item2.Size = new System.Drawing.Size(907, 584);
             this.item2.TabIndex = 10;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(409, 261);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(62, 18);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "Quantity";
+            // 
+            // cb2
+            // 
+            this.cb2.FormattingEnabled = true;
+            this.cb2.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "..."});
+            this.cb2.Location = new System.Drawing.Point(563, 261);
+            this.cb2.Name = "cb2";
+            this.cb2.Size = new System.Drawing.Size(121, 21);
+            this.cb2.TabIndex = 11;
             // 
             // richTextBox2
             // 
@@ -1585,15 +1642,6 @@
             this.panel10.Size = new System.Drawing.Size(374, 584);
             this.panel10.TabIndex = 0;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(17, 55);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(342, 475);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
             // item3
             // 
             this.item3.BackColor = System.Drawing.Color.White;
@@ -1615,6 +1663,34 @@
             this.item3.Name = "item3";
             this.item3.Size = new System.Drawing.Size(907, 584);
             this.item3.TabIndex = 11;
+            // 
+            // label112
+            // 
+            this.label112.AutoSize = true;
+            this.label112.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label112.Location = new System.Drawing.Point(411, 267);
+            this.label112.Name = "label112";
+            this.label112.Size = new System.Drawing.Size(62, 18);
+            this.label112.TabIndex = 14;
+            this.label112.Text = "Quantity";
+            // 
+            // cb3
+            // 
+            this.cb3.FormattingEnabled = true;
+            this.cb3.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "..."});
+            this.cb3.Location = new System.Drawing.Point(571, 267);
+            this.cb3.Name = "cb3";
+            this.cb3.Size = new System.Drawing.Size(121, 21);
+            this.cb3.TabIndex = 13;
             // 
             // richTextBox3
             // 
@@ -1735,15 +1811,6 @@
             this.panel12.Size = new System.Drawing.Size(374, 584);
             this.panel12.TabIndex = 0;
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Location = new System.Drawing.Point(17, 55);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(342, 475);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            // 
             // item4
             // 
             this.item4.BackColor = System.Drawing.Color.White;
@@ -1765,6 +1832,34 @@
             this.item4.Name = "item4";
             this.item4.Size = new System.Drawing.Size(907, 584);
             this.item4.TabIndex = 12;
+            // 
+            // label111
+            // 
+            this.label111.AutoSize = true;
+            this.label111.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label111.Location = new System.Drawing.Point(411, 268);
+            this.label111.Name = "label111";
+            this.label111.Size = new System.Drawing.Size(62, 18);
+            this.label111.TabIndex = 14;
+            this.label111.Text = "Quantity";
+            // 
+            // cb4
+            // 
+            this.cb4.FormattingEnabled = true;
+            this.cb4.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "..."});
+            this.cb4.Location = new System.Drawing.Point(565, 268);
+            this.cb4.Name = "cb4";
+            this.cb4.Size = new System.Drawing.Size(121, 21);
+            this.cb4.TabIndex = 13;
             // 
             // richTextBox4
             // 
@@ -1885,15 +1980,6 @@
             this.panel14.Size = new System.Drawing.Size(374, 584);
             this.panel14.TabIndex = 0;
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Location = new System.Drawing.Point(17, 55);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(342, 475);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
-            // 
             // item5
             // 
             this.item5.BackColor = System.Drawing.Color.White;
@@ -1915,6 +2001,34 @@
             this.item5.Name = "item5";
             this.item5.Size = new System.Drawing.Size(907, 584);
             this.item5.TabIndex = 13;
+            // 
+            // label110
+            // 
+            this.label110.AutoSize = true;
+            this.label110.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label110.Location = new System.Drawing.Point(411, 262);
+            this.label110.Name = "label110";
+            this.label110.Size = new System.Drawing.Size(68, 20);
+            this.label110.TabIndex = 14;
+            this.label110.Text = "Quantity";
+            // 
+            // cb5
+            // 
+            this.cb5.FormattingEnabled = true;
+            this.cb5.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "..."});
+            this.cb5.Location = new System.Drawing.Point(565, 262);
+            this.cb5.Name = "cb5";
+            this.cb5.Size = new System.Drawing.Size(121, 21);
+            this.cb5.TabIndex = 13;
             // 
             // richTextBox5
             // 
@@ -2035,15 +2149,6 @@
             this.panel2.Size = new System.Drawing.Size(374, 584);
             this.panel2.TabIndex = 0;
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Location = new System.Drawing.Point(17, 55);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(342, 475);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 0;
-            this.pictureBox5.TabStop = false;
-            // 
             // item6
             // 
             this.item6.BackColor = System.Drawing.Color.White;
@@ -2065,6 +2170,34 @@
             this.item6.Name = "item6";
             this.item6.Size = new System.Drawing.Size(907, 584);
             this.item6.TabIndex = 14;
+            // 
+            // label109
+            // 
+            this.label109.AutoSize = true;
+            this.label109.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label109.Location = new System.Drawing.Point(413, 268);
+            this.label109.Name = "label109";
+            this.label109.Size = new System.Drawing.Size(68, 20);
+            this.label109.TabIndex = 14;
+            this.label109.Text = "Quantity";
+            // 
+            // cb6
+            // 
+            this.cb6.FormattingEnabled = true;
+            this.cb6.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "..."});
+            this.cb6.Location = new System.Drawing.Point(580, 268);
+            this.cb6.Name = "cb6";
+            this.cb6.Size = new System.Drawing.Size(121, 21);
+            this.cb6.TabIndex = 13;
             // 
             // richTextBox6
             // 
@@ -2185,15 +2318,6 @@
             this.panel3.Size = new System.Drawing.Size(374, 584);
             this.panel3.TabIndex = 0;
             // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Location = new System.Drawing.Point(17, 55);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(342, 475);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 0;
-            this.pictureBox6.TabStop = false;
-            // 
             // item7
             // 
             this.item7.BackColor = System.Drawing.Color.White;
@@ -2215,6 +2339,34 @@
             this.item7.Name = "item7";
             this.item7.Size = new System.Drawing.Size(907, 584);
             this.item7.TabIndex = 15;
+            // 
+            // label108
+            // 
+            this.label108.AutoSize = true;
+            this.label108.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label108.Location = new System.Drawing.Point(411, 263);
+            this.label108.Name = "label108";
+            this.label108.Size = new System.Drawing.Size(68, 20);
+            this.label108.TabIndex = 14;
+            this.label108.Text = "Quantity";
+            // 
+            // cb7
+            // 
+            this.cb7.FormattingEnabled = true;
+            this.cb7.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "..."});
+            this.cb7.Location = new System.Drawing.Point(565, 263);
+            this.cb7.Name = "cb7";
+            this.cb7.Size = new System.Drawing.Size(121, 21);
+            this.cb7.TabIndex = 13;
             // 
             // richTextBox7
             // 
@@ -2335,15 +2487,6 @@
             this.panel4.Size = new System.Drawing.Size(374, 584);
             this.panel4.TabIndex = 0;
             // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Location = new System.Drawing.Point(17, 55);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(342, 475);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 0;
-            this.pictureBox7.TabStop = false;
-            // 
             // item8
             // 
             this.item8.BackColor = System.Drawing.Color.White;
@@ -2365,6 +2508,34 @@
             this.item8.Name = "item8";
             this.item8.Size = new System.Drawing.Size(907, 584);
             this.item8.TabIndex = 16;
+            // 
+            // label106
+            // 
+            this.label106.AutoSize = true;
+            this.label106.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label106.Location = new System.Drawing.Point(411, 269);
+            this.label106.Name = "label106";
+            this.label106.Size = new System.Drawing.Size(62, 18);
+            this.label106.TabIndex = 14;
+            this.label106.Text = "Quantity";
+            // 
+            // cb8
+            // 
+            this.cb8.FormattingEnabled = true;
+            this.cb8.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "..."});
+            this.cb8.Location = new System.Drawing.Point(572, 269);
+            this.cb8.Name = "cb8";
+            this.cb8.Size = new System.Drawing.Size(121, 21);
+            this.cb8.TabIndex = 13;
             // 
             // richTextBox8
             // 
@@ -2485,15 +2656,6 @@
             this.panel6.Size = new System.Drawing.Size(374, 584);
             this.panel6.TabIndex = 0;
             // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Location = new System.Drawing.Point(17, 55);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(342, 475);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 0;
-            this.pictureBox8.TabStop = false;
-            // 
             // item9
             // 
             this.item9.BackColor = System.Drawing.Color.White;
@@ -2515,6 +2677,34 @@
             this.item9.Name = "item9";
             this.item9.Size = new System.Drawing.Size(907, 584);
             this.item9.TabIndex = 17;
+            // 
+            // label105
+            // 
+            this.label105.AutoSize = true;
+            this.label105.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label105.Location = new System.Drawing.Point(411, 265);
+            this.label105.Name = "label105";
+            this.label105.Size = new System.Drawing.Size(68, 20);
+            this.label105.TabIndex = 14;
+            this.label105.Text = "Quantity";
+            // 
+            // cb9
+            // 
+            this.cb9.FormattingEnabled = true;
+            this.cb9.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "..."});
+            this.cb9.Location = new System.Drawing.Point(571, 265);
+            this.cb9.Name = "cb9";
+            this.cb9.Size = new System.Drawing.Size(121, 21);
+            this.cb9.TabIndex = 13;
             // 
             // richTextBox9
             // 
@@ -2635,15 +2825,6 @@
             this.panel9.Size = new System.Drawing.Size(374, 584);
             this.panel9.TabIndex = 0;
             // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Location = new System.Drawing.Point(17, 55);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(342, 475);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 0;
-            this.pictureBox9.TabStop = false;
-            // 
             // item10
             // 
             this.item10.BackColor = System.Drawing.Color.White;
@@ -2665,6 +2846,34 @@
             this.item10.Name = "item10";
             this.item10.Size = new System.Drawing.Size(907, 584);
             this.item10.TabIndex = 18;
+            // 
+            // label100
+            // 
+            this.label100.AutoSize = true;
+            this.label100.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label100.Location = new System.Drawing.Point(414, 264);
+            this.label100.Name = "label100";
+            this.label100.Size = new System.Drawing.Size(68, 20);
+            this.label100.TabIndex = 14;
+            this.label100.Text = "Quantity";
+            // 
+            // cb10
+            // 
+            this.cb10.FormattingEnabled = true;
+            this.cb10.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "..."});
+            this.cb10.Location = new System.Drawing.Point(568, 264);
+            this.cb10.Name = "cb10";
+            this.cb10.Size = new System.Drawing.Size(121, 21);
+            this.cb10.TabIndex = 13;
             // 
             // richTextBox10
             // 
@@ -2785,15 +2994,6 @@
             this.panel13.Size = new System.Drawing.Size(374, 584);
             this.panel13.TabIndex = 0;
             // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Location = new System.Drawing.Point(17, 55);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(342, 475);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 0;
-            this.pictureBox10.TabStop = false;
-            // 
             // item11
             // 
             this.item11.BackColor = System.Drawing.Color.White;
@@ -2815,6 +3015,34 @@
             this.item11.Name = "item11";
             this.item11.Size = new System.Drawing.Size(907, 584);
             this.item11.TabIndex = 19;
+            // 
+            // label99
+            // 
+            this.label99.AutoSize = true;
+            this.label99.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label99.Location = new System.Drawing.Point(414, 261);
+            this.label99.Name = "label99";
+            this.label99.Size = new System.Drawing.Size(68, 20);
+            this.label99.TabIndex = 14;
+            this.label99.Text = "Quantity";
+            // 
+            // cb11
+            // 
+            this.cb11.FormattingEnabled = true;
+            this.cb11.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "..."});
+            this.cb11.Location = new System.Drawing.Point(571, 261);
+            this.cb11.Name = "cb11";
+            this.cb11.Size = new System.Drawing.Size(121, 21);
+            this.cb11.TabIndex = 13;
             // 
             // richTextBox11
             // 
@@ -2935,15 +3163,6 @@
             this.panel5.Size = new System.Drawing.Size(374, 584);
             this.panel5.TabIndex = 0;
             // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Location = new System.Drawing.Point(17, 55);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(342, 475);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox11.TabIndex = 0;
-            this.pictureBox11.TabStop = false;
-            // 
             // face
             // 
             this.face.BackColor = System.Drawing.Color.White;
@@ -2971,6 +3190,21 @@
             this.face.Name = "face";
             this.face.Size = new System.Drawing.Size(907, 584);
             this.face.TabIndex = 20;
+            // 
+            // button48
+            // 
+            this.button48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.button48.FlatAppearance.BorderSize = 0;
+            this.button48.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button48.Font = new System.Drawing.Font("Calisto MT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button48.ForeColor = System.Drawing.SystemColors.Control;
+            this.button48.Location = new System.Drawing.Point(757, 17);
+            this.button48.Name = "button48";
+            this.button48.Size = new System.Drawing.Size(122, 41);
+            this.button48.TabIndex = 50;
+            this.button48.Text = "Checkout\r\n";
+            this.button48.UseVisualStyleBackColor = false;
+            this.button48.Click += new System.EventHandler(this.button48_Click);
             // 
             // nl17
             // 
@@ -3193,6 +3427,34 @@
             this.item12.TabIndex = 21;
             this.item12.Paint += new System.Windows.Forms.PaintEventHandler(this.item12_Paint);
             // 
+            // label98
+            // 
+            this.label98.AutoSize = true;
+            this.label98.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label98.Location = new System.Drawing.Point(411, 266);
+            this.label98.Name = "label98";
+            this.label98.Size = new System.Drawing.Size(68, 20);
+            this.label98.TabIndex = 14;
+            this.label98.Text = "Quantity";
+            // 
+            // cb12
+            // 
+            this.cb12.FormattingEnabled = true;
+            this.cb12.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "..."});
+            this.cb12.Location = new System.Drawing.Point(565, 266);
+            this.cb12.Name = "cb12";
+            this.cb12.Size = new System.Drawing.Size(121, 21);
+            this.cb12.TabIndex = 13;
+            // 
             // richTextBox12
             // 
             this.richTextBox12.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -3312,15 +3574,6 @@
             this.panel7.Size = new System.Drawing.Size(374, 584);
             this.panel7.TabIndex = 0;
             // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Location = new System.Drawing.Point(17, 55);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(342, 475);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 0;
-            this.pictureBox12.TabStop = false;
-            // 
             // item13
             // 
             this.item13.BackColor = System.Drawing.Color.White;
@@ -3342,6 +3595,34 @@
             this.item13.Name = "item13";
             this.item13.Size = new System.Drawing.Size(907, 584);
             this.item13.TabIndex = 22;
+            // 
+            // label93
+            // 
+            this.label93.AutoSize = true;
+            this.label93.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label93.Location = new System.Drawing.Point(413, 267);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(68, 20);
+            this.label93.TabIndex = 14;
+            this.label93.Text = "Quantity";
+            // 
+            // cb13
+            // 
+            this.cb13.FormattingEnabled = true;
+            this.cb13.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "..."});
+            this.cb13.Location = new System.Drawing.Point(567, 267);
+            this.cb13.Name = "cb13";
+            this.cb13.Size = new System.Drawing.Size(121, 21);
+            this.cb13.TabIndex = 13;
             // 
             // richTextBox13
             // 
@@ -3462,15 +3743,6 @@
             this.panel15.Size = new System.Drawing.Size(374, 584);
             this.panel15.TabIndex = 0;
             // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Location = new System.Drawing.Point(17, 55);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(342, 475);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox13.TabIndex = 0;
-            this.pictureBox13.TabStop = false;
-            // 
             // item14
             // 
             this.item14.BackColor = System.Drawing.Color.White;
@@ -3492,6 +3764,34 @@
             this.item14.Name = "item14";
             this.item14.Size = new System.Drawing.Size(907, 584);
             this.item14.TabIndex = 23;
+            // 
+            // label92
+            // 
+            this.label92.AutoSize = true;
+            this.label92.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label92.Location = new System.Drawing.Point(411, 265);
+            this.label92.Name = "label92";
+            this.label92.Size = new System.Drawing.Size(68, 20);
+            this.label92.TabIndex = 14;
+            this.label92.Text = "Quantity";
+            // 
+            // cb14
+            // 
+            this.cb14.FormattingEnabled = true;
+            this.cb14.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "..."});
+            this.cb14.Location = new System.Drawing.Point(565, 265);
+            this.cb14.Name = "cb14";
+            this.cb14.Size = new System.Drawing.Size(121, 21);
+            this.cb14.TabIndex = 13;
             // 
             // richTextBox14
             // 
@@ -3612,15 +3912,6 @@
             this.panel17.Size = new System.Drawing.Size(374, 584);
             this.panel17.TabIndex = 0;
             // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Location = new System.Drawing.Point(17, 55);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(342, 475);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox14.TabIndex = 0;
-            this.pictureBox14.TabStop = false;
-            // 
             // item15
             // 
             this.item15.BackColor = System.Drawing.Color.White;
@@ -3642,6 +3933,34 @@
             this.item15.Name = "item15";
             this.item15.Size = new System.Drawing.Size(907, 584);
             this.item15.TabIndex = 24;
+            // 
+            // label91
+            // 
+            this.label91.AutoSize = true;
+            this.label91.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label91.Location = new System.Drawing.Point(409, 264);
+            this.label91.Name = "label91";
+            this.label91.Size = new System.Drawing.Size(68, 20);
+            this.label91.TabIndex = 14;
+            this.label91.Text = "Quantity";
+            // 
+            // cb15
+            // 
+            this.cb15.FormattingEnabled = true;
+            this.cb15.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "..."});
+            this.cb15.Location = new System.Drawing.Point(563, 264);
+            this.cb15.Name = "cb15";
+            this.cb15.Size = new System.Drawing.Size(121, 21);
+            this.cb15.TabIndex = 13;
             // 
             // richTextBox15
             // 
@@ -3762,15 +4081,6 @@
             this.panel19.Size = new System.Drawing.Size(374, 584);
             this.panel19.TabIndex = 0;
             // 
-            // pictureBox15
-            // 
-            this.pictureBox15.Location = new System.Drawing.Point(17, 55);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(342, 475);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox15.TabIndex = 0;
-            this.pictureBox15.TabStop = false;
-            // 
             // item16
             // 
             this.item16.BackColor = System.Drawing.Color.White;
@@ -3792,6 +4102,34 @@
             this.item16.Name = "item16";
             this.item16.Size = new System.Drawing.Size(907, 584);
             this.item16.TabIndex = 25;
+            // 
+            // label82
+            // 
+            this.label82.AutoSize = true;
+            this.label82.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label82.Location = new System.Drawing.Point(411, 258);
+            this.label82.Name = "label82";
+            this.label82.Size = new System.Drawing.Size(68, 20);
+            this.label82.TabIndex = 14;
+            this.label82.Text = "Quantity";
+            // 
+            // cb16
+            // 
+            this.cb16.FormattingEnabled = true;
+            this.cb16.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "..."});
+            this.cb16.Location = new System.Drawing.Point(568, 258);
+            this.cb16.Name = "cb16";
+            this.cb16.Size = new System.Drawing.Size(121, 21);
+            this.cb16.TabIndex = 13;
             // 
             // richTextBox16
             // 
@@ -3912,15 +4250,6 @@
             this.panel21.Size = new System.Drawing.Size(374, 584);
             this.panel21.TabIndex = 0;
             // 
-            // pictureBox16
-            // 
-            this.pictureBox16.Location = new System.Drawing.Point(17, 55);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(342, 475);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox16.TabIndex = 0;
-            this.pictureBox16.TabStop = false;
-            // 
             // item17
             // 
             this.item17.BackColor = System.Drawing.Color.White;
@@ -3942,6 +4271,34 @@
             this.item17.Name = "item17";
             this.item17.Size = new System.Drawing.Size(907, 584);
             this.item17.TabIndex = 26;
+            // 
+            // label81
+            // 
+            this.label81.AutoSize = true;
+            this.label81.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label81.Location = new System.Drawing.Point(411, 261);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(68, 20);
+            this.label81.TabIndex = 14;
+            this.label81.Text = "Quantity";
+            // 
+            // cb17
+            // 
+            this.cb17.FormattingEnabled = true;
+            this.cb17.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "..."});
+            this.cb17.Location = new System.Drawing.Point(565, 261);
+            this.cb17.Name = "cb17";
+            this.cb17.Size = new System.Drawing.Size(121, 21);
+            this.cb17.TabIndex = 13;
             // 
             // richTextBox17
             // 
@@ -4062,15 +4419,6 @@
             this.panel23.Size = new System.Drawing.Size(374, 584);
             this.panel23.TabIndex = 0;
             // 
-            // pictureBox17
-            // 
-            this.pictureBox17.Location = new System.Drawing.Point(17, 55);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(342, 475);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox17.TabIndex = 0;
-            this.pictureBox17.TabStop = false;
-            // 
             // item18
             // 
             this.item18.BackColor = System.Drawing.Color.White;
@@ -4092,6 +4440,34 @@
             this.item18.Name = "item18";
             this.item18.Size = new System.Drawing.Size(907, 584);
             this.item18.TabIndex = 27;
+            // 
+            // label76
+            // 
+            this.label76.AutoSize = true;
+            this.label76.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label76.Location = new System.Drawing.Point(411, 264);
+            this.label76.Name = "label76";
+            this.label76.Size = new System.Drawing.Size(68, 20);
+            this.label76.TabIndex = 14;
+            this.label76.Text = "Quantity";
+            // 
+            // cb18
+            // 
+            this.cb18.FormattingEnabled = true;
+            this.cb18.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "..."});
+            this.cb18.Location = new System.Drawing.Point(565, 264);
+            this.cb18.Name = "cb18";
+            this.cb18.Size = new System.Drawing.Size(121, 21);
+            this.cb18.TabIndex = 13;
             // 
             // richTextBox18
             // 
@@ -4212,15 +4588,6 @@
             this.panel11.Size = new System.Drawing.Size(374, 584);
             this.panel11.TabIndex = 0;
             // 
-            // pictureBox18
-            // 
-            this.pictureBox18.Location = new System.Drawing.Point(17, 55);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(342, 475);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox18.TabIndex = 0;
-            this.pictureBox18.TabStop = false;
-            // 
             // item19
             // 
             this.item19.BackColor = System.Drawing.Color.White;
@@ -4242,6 +4609,34 @@
             this.item19.Name = "item19";
             this.item19.Size = new System.Drawing.Size(907, 584);
             this.item19.TabIndex = 28;
+            // 
+            // label67
+            // 
+            this.label67.AutoSize = true;
+            this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label67.Location = new System.Drawing.Point(411, 257);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(68, 20);
+            this.label67.TabIndex = 14;
+            this.label67.Text = "Quantity";
+            // 
+            // cb19
+            // 
+            this.cb19.FormattingEnabled = true;
+            this.cb19.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "..."});
+            this.cb19.Location = new System.Drawing.Point(565, 257);
+            this.cb19.Name = "cb19";
+            this.cb19.Size = new System.Drawing.Size(121, 21);
+            this.cb19.TabIndex = 13;
             // 
             // richTextBox19
             // 
@@ -4362,15 +4757,6 @@
             this.panel18.Size = new System.Drawing.Size(374, 584);
             this.panel18.TabIndex = 0;
             // 
-            // pictureBox19
-            // 
-            this.pictureBox19.Location = new System.Drawing.Point(17, 55);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(342, 475);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox19.TabIndex = 0;
-            this.pictureBox19.TabStop = false;
-            // 
             // item20
             // 
             this.item20.BackColor = System.Drawing.Color.White;
@@ -4392,6 +4778,34 @@
             this.item20.Name = "item20";
             this.item20.Size = new System.Drawing.Size(907, 584);
             this.item20.TabIndex = 29;
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label62.Location = new System.Drawing.Point(413, 253);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(68, 20);
+            this.label62.TabIndex = 14;
+            this.label62.Text = "Quantity";
+            // 
+            // cb20
+            // 
+            this.cb20.FormattingEnabled = true;
+            this.cb20.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "..."});
+            this.cb20.Location = new System.Drawing.Point(567, 253);
+            this.cb20.Name = "cb20";
+            this.cb20.Size = new System.Drawing.Size(121, 21);
+            this.cb20.TabIndex = 13;
             // 
             // richTextBox20
             // 
@@ -4512,15 +4926,6 @@
             this.panel22.Size = new System.Drawing.Size(374, 584);
             this.panel22.TabIndex = 0;
             // 
-            // pictureBox20
-            // 
-            this.pictureBox20.Location = new System.Drawing.Point(17, 55);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(342, 475);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox20.TabIndex = 0;
-            this.pictureBox20.TabStop = false;
-            // 
             // item21
             // 
             this.item21.BackColor = System.Drawing.Color.White;
@@ -4542,6 +4947,35 @@
             this.item21.Name = "item21";
             this.item21.Size = new System.Drawing.Size(907, 584);
             this.item21.TabIndex = 30;
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label61.Location = new System.Drawing.Point(410, 256);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(68, 20);
+            this.label61.TabIndex = 14;
+            this.label61.Text = "Quantity";
+            // 
+            // cb21
+            // 
+            this.cb21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cb21.FormattingEnabled = true;
+            this.cb21.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "..."});
+            this.cb21.Location = new System.Drawing.Point(567, 256);
+            this.cb21.Name = "cb21";
+            this.cb21.Size = new System.Drawing.Size(121, 24);
+            this.cb21.TabIndex = 13;
             // 
             // richTextBox21
             // 
@@ -4662,15 +5096,6 @@
             this.panel25.Size = new System.Drawing.Size(374, 584);
             this.panel25.TabIndex = 0;
             // 
-            // pictureBox21
-            // 
-            this.pictureBox21.Location = new System.Drawing.Point(17, 55);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(342, 475);
-            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox21.TabIndex = 0;
-            this.pictureBox21.TabStop = false;
-            // 
             // item22
             // 
             this.item22.BackColor = System.Drawing.Color.White;
@@ -4692,6 +5117,34 @@
             this.item22.Name = "item22";
             this.item22.Size = new System.Drawing.Size(907, 584);
             this.item22.TabIndex = 31;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(411, 263);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(68, 20);
+            this.label4.TabIndex = 14;
+            this.label4.Text = "Quantity";
+            // 
+            // cb22
+            // 
+            this.cb22.FormattingEnabled = true;
+            this.cb22.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "..."});
+            this.cb22.Location = new System.Drawing.Point(590, 263);
+            this.cb22.Name = "cb22";
+            this.cb22.Size = new System.Drawing.Size(121, 21);
+            this.cb22.TabIndex = 13;
             // 
             // richTextBox22
             // 
@@ -4812,6 +5265,177 @@
             this.panel27.Size = new System.Drawing.Size(374, 584);
             this.panel27.TabIndex = 0;
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Location = new System.Drawing.Point(17, 55);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(342, 475);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 0;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Location = new System.Drawing.Point(17, 55);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(342, 475);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Location = new System.Drawing.Point(17, 55);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(342, 475);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 0;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Location = new System.Drawing.Point(17, 55);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(342, 475);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 0;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Location = new System.Drawing.Point(17, 55);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(342, 475);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 0;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Location = new System.Drawing.Point(17, 55);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(342, 475);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Location = new System.Drawing.Point(17, 55);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(342, 475);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 0;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Location = new System.Drawing.Point(17, 55);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(342, 475);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 0;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Location = new System.Drawing.Point(17, 55);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(342, 475);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox11.TabIndex = 0;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Location = new System.Drawing.Point(17, 55);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(342, 475);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox13.TabIndex = 0;
+            this.pictureBox13.TabStop = false;
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.Location = new System.Drawing.Point(17, 55);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(342, 475);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox14.TabIndex = 0;
+            this.pictureBox14.TabStop = false;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Location = new System.Drawing.Point(17, 55);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(342, 475);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox12.TabIndex = 0;
+            this.pictureBox12.TabStop = false;
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.Location = new System.Drawing.Point(17, 55);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(342, 475);
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox15.TabIndex = 0;
+            this.pictureBox15.TabStop = false;
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.Location = new System.Drawing.Point(17, 55);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(342, 475);
+            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox18.TabIndex = 0;
+            this.pictureBox18.TabStop = false;
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.Location = new System.Drawing.Point(17, 55);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(342, 475);
+            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox17.TabIndex = 0;
+            this.pictureBox17.TabStop = false;
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.Location = new System.Drawing.Point(17, 55);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(342, 475);
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox16.TabIndex = 0;
+            this.pictureBox16.TabStop = false;
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.Location = new System.Drawing.Point(17, 55);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(342, 475);
+            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox19.TabIndex = 0;
+            this.pictureBox19.TabStop = false;
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.Location = new System.Drawing.Point(17, 55);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(342, 475);
+            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox20.TabIndex = 0;
+            this.pictureBox20.TabStop = false;
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.Location = new System.Drawing.Point(17, 55);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(342, 475);
+            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox21.TabIndex = 0;
+            this.pictureBox21.TabStop = false;
+            // 
             // pictureBox22
             // 
             this.pictureBox22.Location = new System.Drawing.Point(17, 55);
@@ -4820,6 +5444,25 @@
             this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox22.TabIndex = 0;
             this.pictureBox22.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(17, 55);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(342, 475);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(17, 55);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(342, 475);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // circular_button3
             // 
@@ -4858,698 +5501,69 @@
             this.circular_button1.TabIndex = 8;
             this.circular_button1.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowUserToOrderColumns = true;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(864, 367);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(15, 157);
-            this.dataGridView1.TabIndex = 48;
-            this.dataGridView1.Visible = false;
-            // 
-            // Checkoutbtn1
-            // 
-            this.Checkoutbtn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-            this.Checkoutbtn1.FlatAppearance.BorderSize = 0;
-            this.Checkoutbtn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Checkoutbtn1.Font = new System.Drawing.Font("Calisto MT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Checkoutbtn1.ForeColor = System.Drawing.SystemColors.Control;
-            this.Checkoutbtn1.Location = new System.Drawing.Point(757, 17);
-            this.Checkoutbtn1.Name = "Checkoutbtn1";
-            this.Checkoutbtn1.Size = new System.Drawing.Size(122, 41);
-            this.Checkoutbtn1.TabIndex = 49;
-            this.Checkoutbtn1.Text = "Checkout\r\n";
-            this.Checkoutbtn1.UseVisualStyleBackColor = false;
-            this.Checkoutbtn1.Click += new System.EventHandler(this.Checkoutbtn1_Click);
-            // 
-            // cb2
-            // 
-            this.cb2.FormattingEnabled = true;
-            this.cb2.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "..."});
-            this.cb2.Location = new System.Drawing.Point(563, 261);
-            this.cb2.Name = "cb2";
-            this.cb2.Size = new System.Drawing.Size(121, 21);
-            this.cb2.TabIndex = 11;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(409, 261);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(62, 18);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "Quantity";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(411, 303);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 20);
-            this.label2.TabIndex = 14;
-            this.label2.Text = "Quantity";
-            // 
-            // cb1
-            // 
-            this.cb1.FormattingEnabled = true;
-            this.cb1.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "..."});
-            this.cb1.Location = new System.Drawing.Point(571, 303);
-            this.cb1.Name = "cb1";
-            this.cb1.Size = new System.Drawing.Size(121, 28);
-            this.cb1.TabIndex = 13;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(411, 263);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 20);
-            this.label4.TabIndex = 14;
-            this.label4.Text = "Quantity";
-            // 
-            // cb22
-            // 
-            this.cb22.FormattingEnabled = true;
-            this.cb22.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "..."});
-            this.cb22.Location = new System.Drawing.Point(590, 263);
-            this.cb22.Name = "cb22";
-            this.cb22.Size = new System.Drawing.Size(121, 21);
-            this.cb22.TabIndex = 13;
-            // 
-            // label61
-            // 
-            this.label61.AutoSize = true;
-            this.label61.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label61.Location = new System.Drawing.Point(410, 256);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(68, 20);
-            this.label61.TabIndex = 14;
-            this.label61.Text = "Quantity";
-            // 
-            // cb21
-            // 
-            this.cb21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cb21.FormattingEnabled = true;
-            this.cb21.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "..."});
-            this.cb21.Location = new System.Drawing.Point(567, 256);
-            this.cb21.Name = "cb21";
-            this.cb21.Size = new System.Drawing.Size(121, 24);
-            this.cb21.TabIndex = 13;
-            // 
-            // label62
-            // 
-            this.label62.AutoSize = true;
-            this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label62.Location = new System.Drawing.Point(413, 253);
-            this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(68, 20);
-            this.label62.TabIndex = 14;
-            this.label62.Text = "Quantity";
-            // 
-            // cb20
-            // 
-            this.cb20.FormattingEnabled = true;
-            this.cb20.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "..."});
-            this.cb20.Location = new System.Drawing.Point(567, 253);
-            this.cb20.Name = "cb20";
-            this.cb20.Size = new System.Drawing.Size(121, 21);
-            this.cb20.TabIndex = 13;
-            // 
-            // label67
-            // 
-            this.label67.AutoSize = true;
-            this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label67.Location = new System.Drawing.Point(411, 257);
-            this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(68, 20);
-            this.label67.TabIndex = 14;
-            this.label67.Text = "Quantity";
-            // 
-            // cb19
-            // 
-            this.cb19.FormattingEnabled = true;
-            this.cb19.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "..."});
-            this.cb19.Location = new System.Drawing.Point(565, 257);
-            this.cb19.Name = "cb19";
-            this.cb19.Size = new System.Drawing.Size(121, 21);
-            this.cb19.TabIndex = 13;
-            // 
-            // label76
-            // 
-            this.label76.AutoSize = true;
-            this.label76.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label76.Location = new System.Drawing.Point(411, 264);
-            this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(68, 20);
-            this.label76.TabIndex = 14;
-            this.label76.Text = "Quantity";
-            // 
-            // cb18
-            // 
-            this.cb18.FormattingEnabled = true;
-            this.cb18.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "..."});
-            this.cb18.Location = new System.Drawing.Point(565, 264);
-            this.cb18.Name = "cb18";
-            this.cb18.Size = new System.Drawing.Size(121, 21);
-            this.cb18.TabIndex = 13;
-            // 
-            // label81
-            // 
-            this.label81.AutoSize = true;
-            this.label81.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label81.Location = new System.Drawing.Point(411, 261);
-            this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(68, 20);
-            this.label81.TabIndex = 14;
-            this.label81.Text = "Quantity";
-            // 
-            // cb17
-            // 
-            this.cb17.FormattingEnabled = true;
-            this.cb17.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "..."});
-            this.cb17.Location = new System.Drawing.Point(565, 261);
-            this.cb17.Name = "cb17";
-            this.cb17.Size = new System.Drawing.Size(121, 21);
-            this.cb17.TabIndex = 13;
-            // 
-            // label82
-            // 
-            this.label82.AutoSize = true;
-            this.label82.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label82.Location = new System.Drawing.Point(411, 258);
-            this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(68, 20);
-            this.label82.TabIndex = 14;
-            this.label82.Text = "Quantity";
-            // 
-            // cb16
-            // 
-            this.cb16.FormattingEnabled = true;
-            this.cb16.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "..."});
-            this.cb16.Location = new System.Drawing.Point(568, 258);
-            this.cb16.Name = "cb16";
-            this.cb16.Size = new System.Drawing.Size(121, 21);
-            this.cb16.TabIndex = 13;
-            // 
-            // label91
-            // 
-            this.label91.AutoSize = true;
-            this.label91.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label91.Location = new System.Drawing.Point(409, 264);
-            this.label91.Name = "label91";
-            this.label91.Size = new System.Drawing.Size(68, 20);
-            this.label91.TabIndex = 14;
-            this.label91.Text = "Quantity";
-            // 
-            // cb15
-            // 
-            this.cb15.FormattingEnabled = true;
-            this.cb15.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "..."});
-            this.cb15.Location = new System.Drawing.Point(563, 264);
-            this.cb15.Name = "cb15";
-            this.cb15.Size = new System.Drawing.Size(121, 21);
-            this.cb15.TabIndex = 13;
-            // 
-            // label92
-            // 
-            this.label92.AutoSize = true;
-            this.label92.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label92.Location = new System.Drawing.Point(411, 265);
-            this.label92.Name = "label92";
-            this.label92.Size = new System.Drawing.Size(68, 20);
-            this.label92.TabIndex = 14;
-            this.label92.Text = "Quantity";
-            // 
-            // cb14
-            // 
-            this.cb14.FormattingEnabled = true;
-            this.cb14.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "..."});
-            this.cb14.Location = new System.Drawing.Point(565, 265);
-            this.cb14.Name = "cb14";
-            this.cb14.Size = new System.Drawing.Size(121, 21);
-            this.cb14.TabIndex = 13;
-            // 
-            // label93
-            // 
-            this.label93.AutoSize = true;
-            this.label93.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label93.Location = new System.Drawing.Point(413, 267);
-            this.label93.Name = "label93";
-            this.label93.Size = new System.Drawing.Size(68, 20);
-            this.label93.TabIndex = 14;
-            this.label93.Text = "Quantity";
-            // 
-            // cb13
-            // 
-            this.cb13.FormattingEnabled = true;
-            this.cb13.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "..."});
-            this.cb13.Location = new System.Drawing.Point(567, 267);
-            this.cb13.Name = "cb13";
-            this.cb13.Size = new System.Drawing.Size(121, 21);
-            this.cb13.TabIndex = 13;
-            // 
-            // label98
-            // 
-            this.label98.AutoSize = true;
-            this.label98.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label98.Location = new System.Drawing.Point(411, 266);
-            this.label98.Name = "label98";
-            this.label98.Size = new System.Drawing.Size(68, 20);
-            this.label98.TabIndex = 14;
-            this.label98.Text = "Quantity";
-            // 
-            // cb12
-            // 
-            this.cb12.FormattingEnabled = true;
-            this.cb12.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "..."});
-            this.cb12.Location = new System.Drawing.Point(565, 266);
-            this.cb12.Name = "cb12";
-            this.cb12.Size = new System.Drawing.Size(121, 21);
-            this.cb12.TabIndex = 13;
-            // 
-            // label99
-            // 
-            this.label99.AutoSize = true;
-            this.label99.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label99.Location = new System.Drawing.Point(414, 261);
-            this.label99.Name = "label99";
-            this.label99.Size = new System.Drawing.Size(68, 20);
-            this.label99.TabIndex = 14;
-            this.label99.Text = "Quantity";
-            // 
-            // cb11
-            // 
-            this.cb11.FormattingEnabled = true;
-            this.cb11.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "..."});
-            this.cb11.Location = new System.Drawing.Point(571, 261);
-            this.cb11.Name = "cb11";
-            this.cb11.Size = new System.Drawing.Size(121, 21);
-            this.cb11.TabIndex = 13;
-            // 
-            // label100
-            // 
-            this.label100.AutoSize = true;
-            this.label100.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label100.Location = new System.Drawing.Point(414, 264);
-            this.label100.Name = "label100";
-            this.label100.Size = new System.Drawing.Size(68, 20);
-            this.label100.TabIndex = 14;
-            this.label100.Text = "Quantity";
-            // 
-            // cb10
-            // 
-            this.cb10.FormattingEnabled = true;
-            this.cb10.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "..."});
-            this.cb10.Location = new System.Drawing.Point(568, 264);
-            this.cb10.Name = "cb10";
-            this.cb10.Size = new System.Drawing.Size(121, 21);
-            this.cb10.TabIndex = 13;
-            // 
-            // label105
-            // 
-            this.label105.AutoSize = true;
-            this.label105.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label105.Location = new System.Drawing.Point(411, 265);
-            this.label105.Name = "label105";
-            this.label105.Size = new System.Drawing.Size(68, 20);
-            this.label105.TabIndex = 14;
-            this.label105.Text = "Quantity";
-            // 
-            // cb9
-            // 
-            this.cb9.FormattingEnabled = true;
-            this.cb9.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "..."});
-            this.cb9.Location = new System.Drawing.Point(571, 265);
-            this.cb9.Name = "cb9";
-            this.cb9.Size = new System.Drawing.Size(121, 21);
-            this.cb9.TabIndex = 13;
-            // 
-            // label108
-            // 
-            this.label108.AutoSize = true;
-            this.label108.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label108.Location = new System.Drawing.Point(411, 263);
-            this.label108.Name = "label108";
-            this.label108.Size = new System.Drawing.Size(68, 20);
-            this.label108.TabIndex = 14;
-            this.label108.Text = "Quantity";
-            // 
-            // cb7
-            // 
-            this.cb7.FormattingEnabled = true;
-            this.cb7.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "..."});
-            this.cb7.Location = new System.Drawing.Point(565, 263);
-            this.cb7.Name = "cb7";
-            this.cb7.Size = new System.Drawing.Size(121, 21);
-            this.cb7.TabIndex = 13;
-            // 
-            // label109
-            // 
-            this.label109.AutoSize = true;
-            this.label109.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label109.Location = new System.Drawing.Point(413, 268);
-            this.label109.Name = "label109";
-            this.label109.Size = new System.Drawing.Size(68, 20);
-            this.label109.TabIndex = 14;
-            this.label109.Text = "Quantity";
-            // 
-            // cb6
-            // 
-            this.cb6.FormattingEnabled = true;
-            this.cb6.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "..."});
-            this.cb6.Location = new System.Drawing.Point(580, 268);
-            this.cb6.Name = "cb6";
-            this.cb6.Size = new System.Drawing.Size(121, 21);
-            this.cb6.TabIndex = 13;
-            // 
-            // label110
-            // 
-            this.label110.AutoSize = true;
-            this.label110.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label110.Location = new System.Drawing.Point(411, 262);
-            this.label110.Name = "label110";
-            this.label110.Size = new System.Drawing.Size(68, 20);
-            this.label110.TabIndex = 14;
-            this.label110.Text = "Quantity";
-            // 
-            // cb5
-            // 
-            this.cb5.FormattingEnabled = true;
-            this.cb5.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "..."});
-            this.cb5.Location = new System.Drawing.Point(565, 262);
-            this.cb5.Name = "cb5";
-            this.cb5.Size = new System.Drawing.Size(121, 21);
-            this.cb5.TabIndex = 13;
-            // 
-            // label111
-            // 
-            this.label111.AutoSize = true;
-            this.label111.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label111.Location = new System.Drawing.Point(411, 268);
-            this.label111.Name = "label111";
-            this.label111.Size = new System.Drawing.Size(62, 18);
-            this.label111.TabIndex = 14;
-            this.label111.Text = "Quantity";
-            // 
-            // cb4
-            // 
-            this.cb4.FormattingEnabled = true;
-            this.cb4.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "..."});
-            this.cb4.Location = new System.Drawing.Point(565, 268);
-            this.cb4.Name = "cb4";
-            this.cb4.Size = new System.Drawing.Size(121, 21);
-            this.cb4.TabIndex = 13;
-            // 
-            // label112
-            // 
-            this.label112.AutoSize = true;
-            this.label112.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label112.Location = new System.Drawing.Point(411, 267);
-            this.label112.Name = "label112";
-            this.label112.Size = new System.Drawing.Size(62, 18);
-            this.label112.TabIndex = 14;
-            this.label112.Text = "Quantity";
-            // 
-            // cb3
-            // 
-            this.cb3.FormattingEnabled = true;
-            this.cb3.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "..."});
-            this.cb3.Location = new System.Drawing.Point(571, 267);
-            this.cb3.Name = "cb3";
-            this.cb3.Size = new System.Drawing.Size(121, 21);
-            this.cb3.TabIndex = 13;
-            // 
-            // button46
-            // 
-            this.button46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-            this.button46.FlatAppearance.BorderSize = 0;
-            this.button46.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button46.Font = new System.Drawing.Font("Calisto MT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button46.ForeColor = System.Drawing.SystemColors.Control;
-            this.button46.Location = new System.Drawing.Point(757, 17);
-            this.button46.Name = "button46";
-            this.button46.Size = new System.Drawing.Size(122, 41);
-            this.button46.TabIndex = 62;
-            this.button46.Text = "Checkout\r\n";
-            this.button46.UseVisualStyleBackColor = false;
-            this.button46.Click += new System.EventHandler(this.button46_Click);
-            // 
-            // button47
-            // 
-            this.button47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-            this.button47.FlatAppearance.BorderSize = 0;
-            this.button47.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button47.Font = new System.Drawing.Font("Calisto MT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button47.ForeColor = System.Drawing.SystemColors.Control;
-            this.button47.Location = new System.Drawing.Point(757, 17);
-            this.button47.Name = "button47";
-            this.button47.Size = new System.Drawing.Size(122, 41);
-            this.button47.TabIndex = 50;
-            this.button47.Text = "Checkout\r\n";
-            this.button47.UseVisualStyleBackColor = false;
-            this.button47.Click += new System.EventHandler(this.button47_Click);
-            // 
-            // button48
-            // 
-            this.button48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-            this.button48.FlatAppearance.BorderSize = 0;
-            this.button48.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button48.Font = new System.Drawing.Font("Calisto MT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button48.ForeColor = System.Drawing.SystemColors.Control;
-            this.button48.Location = new System.Drawing.Point(757, 17);
-            this.button48.Name = "button48";
-            this.button48.Size = new System.Drawing.Size(122, 41);
-            this.button48.TabIndex = 50;
-            this.button48.Text = "Checkout\r\n";
-            this.button48.UseVisualStyleBackColor = false;
-            this.button48.Click += new System.EventHandler(this.button48_Click);
-            // 
-            // cb8
-            // 
-            this.cb8.FormattingEnabled = true;
-            this.cb8.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "..."});
-            this.cb8.Location = new System.Drawing.Point(572, 269);
-            this.cb8.Name = "cb8";
-            this.cb8.Size = new System.Drawing.Size(121, 21);
-            this.cb8.TabIndex = 13;
-            // 
-            // label106
-            // 
-            this.label106.AutoSize = true;
-            this.label106.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label106.Location = new System.Drawing.Point(411, 269);
-            this.label106.Name = "label106";
-            this.label106.Size = new System.Drawing.Size(62, 18);
-            this.label106.TabIndex = 14;
-            this.label106.Text = "Quantity";
+            // lipsbtn
+            // 
+            this.lipsbtn.FlatAppearance.BorderSize = 0;
+            this.lipsbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lipsbtn.Image = global::Makeup_Store.Properties.Resources.lip;
+            this.lipsbtn.Location = new System.Drawing.Point(-3, 205);
+            this.lipsbtn.Name = "lipsbtn";
+            this.lipsbtn.Size = new System.Drawing.Size(189, 50);
+            this.lipsbtn.TabIndex = 1;
+            this.lipsbtn.Text = "     Lips";
+            this.lipsbtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lipsbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.lipsbtn.UseVisualStyleBackColor = true;
+            this.lipsbtn.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // eyesbtn
+            // 
+            this.eyesbtn.FlatAppearance.BorderSize = 0;
+            this.eyesbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.eyesbtn.Image = ((System.Drawing.Image)(resources.GetObject("eyesbtn.Image")));
+            this.eyesbtn.Location = new System.Drawing.Point(-3, 152);
+            this.eyesbtn.Name = "eyesbtn";
+            this.eyesbtn.Size = new System.Drawing.Size(186, 50);
+            this.eyesbtn.TabIndex = 3;
+            this.eyesbtn.Text = "    Eyes";
+            this.eyesbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.eyesbtn.UseVisualStyleBackColor = true;
+            this.eyesbtn.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // toolsbtn
+            // 
+            this.toolsbtn.FlatAppearance.BorderSize = 0;
+            this.toolsbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.toolsbtn.Image = global::Makeup_Store.Properties.Resources.brush;
+            this.toolsbtn.Location = new System.Drawing.Point(0, 324);
+            this.toolsbtn.Name = "toolsbtn";
+            this.toolsbtn.Size = new System.Drawing.Size(178, 50);
+            this.toolsbtn.TabIndex = 5;
+            this.toolsbtn.Text = "    Tools";
+            this.toolsbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.toolsbtn.UseVisualStyleBackColor = true;
+            this.toolsbtn.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // bodybtn
+            // 
+            this.bodybtn.FlatAppearance.BorderSize = 0;
+            this.bodybtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bodybtn.Image = ((System.Drawing.Image)(resources.GetObject("bodybtn.Image")));
+            this.bodybtn.Location = new System.Drawing.Point(6, 266);
+            this.bodybtn.Name = "bodybtn";
+            this.bodybtn.Size = new System.Drawing.Size(172, 50);
+            this.bodybtn.TabIndex = 4;
+            this.bodybtn.Text = "    Face";
+            this.bodybtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.bodybtn.UseVisualStyleBackColor = true;
+            this.bodybtn.Click += new System.EventHandler(this.button5_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1093, 611);
+            this.Controls.Add(this.eyes);
             this.Controls.Add(this.item5);
             this.Controls.Add(this.item4);
             this.Controls.Add(this.item7);
@@ -5575,7 +5589,6 @@
             this.Controls.Add(this.lips);
             this.Controls.Add(this.Tools);
             this.Controls.Add(this.face);
-            this.Controls.Add(this.eyes);
             this.Controls.Add(this.topbar);
             this.Controls.Add(this.sidebar);
             this.Name = "Form1";
@@ -5583,8 +5596,10 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.sidebar.ResumeLayout(false);
             this.topbar.ResumeLayout(false);
+            this.topbar.PerformLayout();
             this.eyes.ResumeLayout(false);
             this.eyes.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.lips.ResumeLayout(false);
             this.lips.PerformLayout();
             this.Tools.ResumeLayout(false);
@@ -5592,94 +5607,93 @@
             this.item1.ResumeLayout(false);
             this.item1.PerformLayout();
             this.panel8.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.item2.ResumeLayout(false);
             this.item2.PerformLayout();
             this.panel10.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.item3.ResumeLayout(false);
             this.item3.PerformLayout();
             this.panel12.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.item4.ResumeLayout(false);
             this.item4.PerformLayout();
             this.panel14.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.item5.ResumeLayout(false);
             this.item5.PerformLayout();
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.item6.ResumeLayout(false);
             this.item6.PerformLayout();
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.item7.ResumeLayout(false);
             this.item7.PerformLayout();
             this.panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.item8.ResumeLayout(false);
             this.item8.PerformLayout();
             this.panel6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.item9.ResumeLayout(false);
             this.item9.PerformLayout();
             this.panel9.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.item10.ResumeLayout(false);
             this.item10.PerformLayout();
             this.panel13.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.item11.ResumeLayout(false);
             this.item11.PerformLayout();
             this.panel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             this.face.ResumeLayout(false);
             this.face.PerformLayout();
             this.item12.ResumeLayout(false);
             this.item12.PerformLayout();
             this.panel7.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.item13.ResumeLayout(false);
             this.item13.PerformLayout();
             this.panel15.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.item14.ResumeLayout(false);
             this.item14.PerformLayout();
             this.panel17.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             this.item15.ResumeLayout(false);
             this.item15.PerformLayout();
             this.panel19.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             this.item16.ResumeLayout(false);
             this.item16.PerformLayout();
             this.panel21.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             this.item17.ResumeLayout(false);
             this.item17.PerformLayout();
             this.panel23.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             this.item18.ResumeLayout(false);
             this.item18.PerformLayout();
             this.panel11.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             this.item19.ResumeLayout(false);
             this.item19.PerformLayout();
             this.panel18.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             this.item20.ResumeLayout(false);
             this.item20.PerformLayout();
             this.panel22.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
             this.item21.ResumeLayout(false);
             this.item21.PerformLayout();
             this.panel25.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             this.item22.ResumeLayout(false);
             this.item22.PerformLayout();
             this.panel27.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -6106,6 +6120,7 @@
         private System.Windows.Forms.Button button46;
         private System.Windows.Forms.Label label106;
         private System.Windows.Forms.ComboBox cb8;
+        private System.Windows.Forms.Label welcome;
     }
 }
 

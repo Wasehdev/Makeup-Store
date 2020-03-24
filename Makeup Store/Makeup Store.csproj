@@ -62,18 +62,36 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn.Designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignUp.Designer.cs">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Checkout.resx">
       <DependentUpon>Checkout.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUp.resx">
+      <DependentUpon>SignUp.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -116,6 +134,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\solid-green-backgrounds-luxury-kelly-green-solid-color-background-saucey-2019-of-solid-green-backgrounds1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\useryellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\passwordyellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\passwordwhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userwhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ewhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ayellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eyellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ewhite1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pwhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pyellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\awhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lip.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
