@@ -26,6 +26,12 @@ namespace Makeup_Store
         public Form1()
         {
             InitializeComponent();
+            if(LogIn.user == "Admin!")
+            {
+                adminpanelbtn.Enabled = true;
+                adminpanelbtn.Visible = true;
+            }
+            welcome.Text = "Welcome " + LogIn.user;
             dataGridView1.Rows.Clear();
             dataGridView1.ColumnCount = 5;
             dataGridView1.Columns[0].Name = "SR NO";
@@ -686,7 +692,7 @@ namespace Makeup_Store
 
         private void circular_button2_Click(object sender, EventArgs e)
         {
-
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void label9_Click(object sender, EventArgs e)
@@ -2306,6 +2312,23 @@ namespace Makeup_Store
         private void button22_Click(object sender, EventArgs e)
         {
             buyNow(name5.Text, price5.Text, cb5.Text);
+        }
+
+        private void circular_button1_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void button49_Click(object sender, EventArgs e)
+        {
+            products pro = new products();
+            this.Hide();
+            pro.Show();
+        }
+
+        private void circular_button3_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal;
         }
     }
     }

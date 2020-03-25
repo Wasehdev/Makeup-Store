@@ -66,11 +66,23 @@ namespace Makeup_Store
 
             if (ds.Tables[0].Rows.Count > 0)
             {
+                if (name.Text == "wasehjutt")
+                {
+                    user = "Admin!";
+                    Form1 n = new Form1();
+                    this.Hide();
+                    n.Show();
+
+                }
+                else
+                {
+
                 user = name.Text;
                 Form1 m = new Form1();
                 this.Hide();
                 m.Show();
                 
+                }
             }
             else
             {

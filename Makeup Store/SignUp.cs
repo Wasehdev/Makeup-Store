@@ -403,7 +403,7 @@ namespace Makeup_Store
 
             catch
             {
-                MessageBox.Show("Sign up Failed");
+                
             }
 
             con.Close();
@@ -416,6 +416,11 @@ namespace Makeup_Store
             this.Hide();
             LogIn l = new LogIn();
             l.Show();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

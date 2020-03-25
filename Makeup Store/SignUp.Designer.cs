@@ -30,24 +30,24 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignUp));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panele = new System.Windows.Forms.Panel();
+            this.et = new System.Windows.Forms.TextBox();
+            this.ep = new System.Windows.Forms.PictureBox();
+            this.paneln = new System.Windows.Forms.Panel();
+            this.nt = new System.Windows.Forms.TextBox();
+            this.np = new System.Windows.Forms.PictureBox();
+            this.panelph = new System.Windows.Forms.Panel();
+            this.pht = new System.Windows.Forms.TextBox();
+            this.php = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panelp = new System.Windows.Forms.Panel();
             this.panelu = new System.Windows.Forms.Panel();
             this.pt = new System.Windows.Forms.TextBox();
-            this.unt = new System.Windows.Forms.TextBox();
-            this.panelph = new System.Windows.Forms.Panel();
-            this.pht = new System.Windows.Forms.TextBox();
-            this.paneln = new System.Windows.Forms.Panel();
-            this.nt = new System.Windows.Forms.TextBox();
-            this.panele = new System.Windows.Forms.Panel();
-            this.et = new System.Windows.Forms.TextBox();
-            this.ep = new System.Windows.Forms.PictureBox();
-            this.np = new System.Windows.Forms.PictureBox();
-            this.php = new System.Windows.Forms.PictureBox();
             this.pp = new System.Windows.Forms.PictureBox();
+            this.unt = new System.Windows.Forms.TextBox();
             this.unp = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ep)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.np)).BeginInit();
@@ -82,6 +82,115 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(319, 522);
             this.panel1.TabIndex = 1;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(176, 475);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(101, 13);
+            this.label2.TabIndex = 18;
+            this.label2.Text = "Back to LogIn page";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // panele
+            // 
+            this.panele.BackColor = System.Drawing.Color.White;
+            this.panele.Location = new System.Drawing.Point(35, 261);
+            this.panele.Name = "panele";
+            this.panele.Size = new System.Drawing.Size(250, 1);
+            this.panele.TabIndex = 17;
+            // 
+            // et
+            // 
+            this.et.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.et.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.et.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.et.ForeColor = System.Drawing.Color.White;
+            this.et.Location = new System.Drawing.Point(72, 233);
+            this.et.Name = "et";
+            this.et.Size = new System.Drawing.Size(100, 15);
+            this.et.TabIndex = 16;
+            this.et.Text = "Email";
+            this.et.Click += new System.EventHandler(this.et_Click);
+            // 
+            // ep
+            // 
+            this.ep.Image = global::Makeup_Store.Properties.Resources.ewhite;
+            this.ep.Location = new System.Drawing.Point(38, 225);
+            this.ep.Name = "ep";
+            this.ep.Size = new System.Drawing.Size(24, 24);
+            this.ep.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ep.TabIndex = 15;
+            this.ep.TabStop = false;
+            // 
+            // paneln
+            // 
+            this.paneln.BackColor = System.Drawing.Color.White;
+            this.paneln.Location = new System.Drawing.Point(35, 210);
+            this.paneln.Name = "paneln";
+            this.paneln.Size = new System.Drawing.Size(250, 1);
+            this.paneln.TabIndex = 14;
+            // 
+            // nt
+            // 
+            this.nt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.nt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.nt.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nt.ForeColor = System.Drawing.Color.White;
+            this.nt.Location = new System.Drawing.Point(72, 182);
+            this.nt.Name = "nt";
+            this.nt.Size = new System.Drawing.Size(100, 15);
+            this.nt.TabIndex = 13;
+            this.nt.Text = "Name";
+            this.nt.Click += new System.EventHandler(this.nt_Click);
+            // 
+            // np
+            // 
+            this.np.Image = global::Makeup_Store.Properties.Resources.userwhite;
+            this.np.Location = new System.Drawing.Point(35, 174);
+            this.np.Name = "np";
+            this.np.Size = new System.Drawing.Size(30, 30);
+            this.np.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.np.TabIndex = 12;
+            this.np.TabStop = false;
+            // 
+            // panelph
+            // 
+            this.panelph.BackColor = System.Drawing.Color.White;
+            this.panelph.Location = new System.Drawing.Point(35, 310);
+            this.panelph.Name = "panelph";
+            this.panelph.Size = new System.Drawing.Size(250, 1);
+            this.panelph.TabIndex = 11;
+            this.panelph.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // pht
+            // 
+            this.pht.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.pht.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.pht.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pht.ForeColor = System.Drawing.Color.White;
+            this.pht.Location = new System.Drawing.Point(70, 282);
+            this.pht.Name = "pht";
+            this.pht.Size = new System.Drawing.Size(100, 15);
+            this.pht.TabIndex = 10;
+            this.pht.Text = "Phone Number";
+            this.pht.Click += new System.EventHandler(this.pht_Click);
+            this.pht.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // php
+            // 
+            this.php.Image = global::Makeup_Store.Properties.Resources.pwhite;
+            this.php.Location = new System.Drawing.Point(36, 274);
+            this.php.Name = "php";
+            this.php.Size = new System.Drawing.Size(30, 30);
+            this.php.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.php.TabIndex = 9;
+            this.php.TabStop = false;
+            this.php.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // button1
             // 
@@ -140,6 +249,17 @@
             this.pt.Click += new System.EventHandler(this.pt_Click);
             this.pt.TextChanged += new System.EventHandler(this.password_TextChanged);
             // 
+            // pp
+            // 
+            this.pp.Image = ((System.Drawing.Image)(resources.GetObject("pp.Image")));
+            this.pp.Location = new System.Drawing.Point(38, 324);
+            this.pp.Name = "pp";
+            this.pp.Size = new System.Drawing.Size(24, 24);
+            this.pp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pp.TabIndex = 5;
+            this.pp.TabStop = false;
+            this.pp.Click += new System.EventHandler(this.passpic_Click);
+            // 
             // unt
             // 
             this.unt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
@@ -154,113 +274,6 @@
             this.unt.Click += new System.EventHandler(this.unt_Click);
             this.unt.TextChanged += new System.EventHandler(this.unt_TextChanged);
             // 
-            // panelph
-            // 
-            this.panelph.BackColor = System.Drawing.Color.White;
-            this.panelph.Location = new System.Drawing.Point(35, 310);
-            this.panelph.Name = "panelph";
-            this.panelph.Size = new System.Drawing.Size(250, 1);
-            this.panelph.TabIndex = 11;
-            this.panelph.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
-            // 
-            // pht
-            // 
-            this.pht.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-            this.pht.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.pht.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pht.ForeColor = System.Drawing.Color.White;
-            this.pht.Location = new System.Drawing.Point(70, 282);
-            this.pht.Name = "pht";
-            this.pht.Size = new System.Drawing.Size(100, 15);
-            this.pht.TabIndex = 10;
-            this.pht.Text = "Phone Number";
-            this.pht.Click += new System.EventHandler(this.pht_Click);
-            this.pht.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // paneln
-            // 
-            this.paneln.BackColor = System.Drawing.Color.White;
-            this.paneln.Location = new System.Drawing.Point(35, 210);
-            this.paneln.Name = "paneln";
-            this.paneln.Size = new System.Drawing.Size(250, 1);
-            this.paneln.TabIndex = 14;
-            // 
-            // nt
-            // 
-            this.nt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-            this.nt.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.nt.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nt.ForeColor = System.Drawing.Color.White;
-            this.nt.Location = new System.Drawing.Point(72, 182);
-            this.nt.Name = "nt";
-            this.nt.Size = new System.Drawing.Size(100, 15);
-            this.nt.TabIndex = 13;
-            this.nt.Text = "Name";
-            this.nt.Click += new System.EventHandler(this.nt_Click);
-            // 
-            // panele
-            // 
-            this.panele.BackColor = System.Drawing.Color.White;
-            this.panele.Location = new System.Drawing.Point(35, 261);
-            this.panele.Name = "panele";
-            this.panele.Size = new System.Drawing.Size(250, 1);
-            this.panele.TabIndex = 17;
-            // 
-            // et
-            // 
-            this.et.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-            this.et.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.et.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.et.ForeColor = System.Drawing.Color.White;
-            this.et.Location = new System.Drawing.Point(72, 233);
-            this.et.Name = "et";
-            this.et.Size = new System.Drawing.Size(100, 15);
-            this.et.TabIndex = 16;
-            this.et.Text = "Email";
-            this.et.Click += new System.EventHandler(this.et_Click);
-            // 
-            // ep
-            // 
-            this.ep.Image = global::Makeup_Store.Properties.Resources.ewhite;
-            this.ep.Location = new System.Drawing.Point(38, 225);
-            this.ep.Name = "ep";
-            this.ep.Size = new System.Drawing.Size(24, 24);
-            this.ep.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.ep.TabIndex = 15;
-            this.ep.TabStop = false;
-            // 
-            // np
-            // 
-            this.np.Image = global::Makeup_Store.Properties.Resources.userwhite;
-            this.np.Location = new System.Drawing.Point(35, 174);
-            this.np.Name = "np";
-            this.np.Size = new System.Drawing.Size(30, 30);
-            this.np.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.np.TabIndex = 12;
-            this.np.TabStop = false;
-            // 
-            // php
-            // 
-            this.php.Image = global::Makeup_Store.Properties.Resources.pwhite;
-            this.php.Location = new System.Drawing.Point(36, 274);
-            this.php.Name = "php";
-            this.php.Size = new System.Drawing.Size(30, 30);
-            this.php.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.php.TabIndex = 9;
-            this.php.TabStop = false;
-            this.php.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // pp
-            // 
-            this.pp.Image = ((System.Drawing.Image)(resources.GetObject("pp.Image")));
-            this.pp.Location = new System.Drawing.Point(38, 324);
-            this.pp.Name = "pp";
-            this.pp.Size = new System.Drawing.Size(24, 24);
-            this.pp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pp.TabIndex = 5;
-            this.pp.TabStop = false;
-            this.pp.Click += new System.EventHandler(this.passpic_Click);
-            // 
             // unp
             // 
             this.unp.Image = global::Makeup_Store.Properties.Resources.userwhite;
@@ -270,18 +283,6 @@
             this.unp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.unp.TabIndex = 2;
             this.unp.TabStop = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(176, 475);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(101, 13);
-            this.label2.TabIndex = 18;
-            this.label2.Text = "Back to LogIn page";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // SignUp
             // 
